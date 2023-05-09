@@ -140,7 +140,7 @@
 		          <label class="content">内容:</label>
 		            <textarea id="content" name="content" placeholder="募集内容をお書きください">{{ old('content') }}</textarea>
                 <br>
-              <button type="submit" class="btn btn-secondary shadow button">書き込む</button>
+              <button type="submit" class="btn button">書き込む</button>
             </div>
           </div>
         </div>
@@ -209,7 +209,7 @@
 		             <label class="content">内容:</label>
 		             <textarea id="content" name="content" placeholder="募集内容をお書きください">{{ old('content') }}</textarea>
                <br>
-                 <button type="submit" class="btn btn-secondary shadow button">書き込む </button>
+                 <button type="submit" class="btn button">書き込む </button>
                </div>
             </div>
           </div>
@@ -279,7 +279,7 @@
 		             <label class="content">内容:</label>
 		             <textarea id="content" name="content" placeholder="募集内容をお書きください">{{ old('content') }}</textarea>
                <br>
-                 <button type="submit" class="btn btn-secondary shadow button">書き込む </button>
+                 <button type="submit" class="btn button">書き込む </button>
                </div>
             </div>
           </div>
