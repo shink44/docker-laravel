@@ -31,12 +31,16 @@
 .top {
     text-align: center;
     position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
     top: 0px;
     font-size: 15px;
-    background-color: rgba(55, 255, 5, 0.746);
+    background-color: rgb(5, 201, 255);
+    border: 1.5px solid white;
 }
 .top:hover {
-    background-color: white;
+    background-color: rgb(5, 255, 251);
+    border: 1.5px solid white;
 }
 .furebofooter {
     text-align: center;
@@ -69,7 +73,7 @@
 .message-login {
     position: absolute;
     padding: 0.75rem 1.25rem;
-    top: 150px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid transparent;
@@ -77,14 +81,14 @@
     animation: fadeout-anim 3s linear forwards;
     opacity: 1;
     text-align: center;
-    font-size: 10px;
+    font-size: 18px;
     background-color: #2be1bf;
-    width: 300px;
+    width: 1000px;
 }
 .message-logout {
     position: absolute;
     padding: 0.75rem 1.25rem;
-    top: 150px;
+    top: 90px;
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid transparent;
@@ -92,9 +96,9 @@
     animation: fadeout-anim 3s linear forwards;
     opacity: 1;
     text-align: center;
-    font-size: 10px;
+    font-size: 18px;
     background-color: #2be1bf;
-    width: 300px;
+    width: 1000px;
 }
 @keyframes fadeout-anim {
     100% {
@@ -122,6 +126,7 @@
 	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	transition: 0.5s;
+    background-color: white;
 }
 .furebo-PC:hover {
 	color: #fff;
@@ -149,6 +154,7 @@
 	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	transition: 0.5s;
+    background-color: white;
 }
 .furebo-PS4PS5:hover {
 	color: #fff;
@@ -176,6 +182,7 @@
 	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	-webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
 	transition: 0.5s;
+    background-color: white;
 }
 .furebo-XboxOne:hover {
 	color: #fff;
@@ -191,6 +198,20 @@
     height: 750px;
     position: relative;
 }
+.apexl > img {
+    width: 100%;
+    height: 927px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    filter: brightness(0.3);
+    z-index: 0;
+}
+.apexl2 > img {
+   display: none;
+}
 .apexlogo > img {
     width: 150px;
     height: 80px;
@@ -198,12 +219,15 @@
     top: 110px;
     left: 30px;
     font-size: 24px;
+    border-radius: 30px 30px 30px;
 }
 .apexlogo > p {
     position: absolute;
     top: 130px;
     left: 200px;
-    font-size: 24px;
+    font-size: 26px;
+    border: #000;
+    color: rgb(255, 255, 255);
 }
 .description992 {
     position: absolute;
@@ -211,6 +235,7 @@
     left: 50px;
     font-size: 1.4rem;
     letter-spacing: 1px;
+    color: rgb(255, 255, 255);
 }
 .description520 {
     display: none;
@@ -228,13 +253,14 @@ a.inqbutton {
 	width: 300px;
 	padding: 6px 6px 6px 20px;
 	font-weight: bold;
-	border: 2px solid #0fbe9f;
+	border: 2px solid white;
 	background: #0fbe9f;
 	color: #fff;
 	border-radius: 100vh;
 	transition: 0.5s;
 }
 a.inqbutton:hover {
+    border-color: #0fbe9f;
 	color: #0fbe9f;
 	background: #fff;
 }
@@ -285,6 +311,7 @@ a.inqbutton:hover {
     right: 100px;
     font-size: 1.4rem;
     letter-spacing: 2px;
+    color: rgb(255, 255, 255);
 }
 .registration992 {
     text-align: left;
@@ -293,6 +320,7 @@ a.inqbutton:hover {
     left: 50px;
     font-size: 1.4rem;
     letter-spacing: 2px;
+    color: rgb(255, 255, 255);
 }
 .registration520 {
     display: none;
@@ -304,6 +332,7 @@ a.inqbutton:hover {
     top: 710px;
     left: 50%;
     transform: translateX(-50%);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -447,10 +476,42 @@ textarea#content {
 
 
 
+
+
+
+
         /* 投稿ページレイアウト */
+.form992No2 {
+    width: 992px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0000000b;
+}
+.form992No3 {
+    width: 992px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 992px;
+    background-color: #f6f6f6;
+    z-index: -1;
+  }
+  .form992No3 {
+    background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(150deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(30deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(150deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(60deg, #e6e6e6 25%, transparent 25.5%, transparent 75%, #e6e6e6 75%, #e6e6e6),
+                       linear-gradient(60deg, #e6e6e6 25%, transparent 25.5%, transparent 75%, #e6e6e6 75%, #e6e6e6);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+    /* #0fbe9f; */
+  }
 .search {
     position: relative;
-    margin-left: 90px;
+    top: -70px;
+    left: 80px;
 }
 .searchModel {
     position: relative;
@@ -502,7 +563,7 @@ textarea#content {
 .searchbutton  {
     position: relative;
     top: 10px;
-    left: -370px;
+    right: 415px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -535,7 +596,6 @@ textarea#content {
 .searchbutton:after {
   left: 0;
   background: #6bb6ff;
-  /* z-index: 0; */
   width: 3rem;
   height: 3rem;
   border-radius: 4rem;
@@ -571,8 +631,7 @@ select#searchRank {
 }
 .lists {
     position: relative;
-    top: 130px;
-    margin-bottom: 40px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -580,6 +639,7 @@ select#searchRank {
     width: 350px;
     letter-spacing: 5px;
     padding-left: 1.2em;
+    margin-bottom: 80px;
     color: #6cb4e4;
     text-align: center;
     padding: 0.25em;
@@ -593,6 +653,7 @@ select#searchRank {
 }
 .entry_sheet992 {
     position: relative;
+    top: -60px;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
@@ -636,7 +697,7 @@ select#searchRank {
     position: absolute;
     right: 50%;
     left: 50%;
-    top: 1050px;
+    top: 1080px;
     transform: translate(-50%,-50%);
     padding: 0.75rem 1.25rem;
     border: 1px solid transparent;
@@ -653,6 +714,11 @@ select#searchRank {
         opacity: 0;
         }
     }
+.paginate {
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
 
 
 
@@ -661,7 +727,7 @@ select#searchRank {
     /* ユーザー関連のcss */
 .furebo-login-input {
     border-radius: 2px;
-    border: solid 1px #b2b2b2;
+    border: solid 1px #dedcdc;
     background-color: #ffffff;
 }
 .furebo-check-label {
@@ -1190,14 +1256,17 @@ textarea#contents {
 .top {
     text-align: center;
     position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
     bottom: 10px;
     font-size: 15px;
-    background-color: rgba(55, 255, 5, 0.746);
+    background-color: rgb(5, 201, 255);
+    border: 1.5px solid white;
     transition: 0.2s ease-in-out;
 }
 .top:hover {
-    background: #fff;
-    color: #313131;
+    background-color: rgb(5, 255, 251);
+    border: 1.5px solid white;
 }
 .top:after {
     content: '';
@@ -1301,19 +1370,31 @@ textarea#contents {
     height: 400px;
     position: relative;
 }
+.apexl > img {
+    display: none;
+}
+.apexl2 > img {
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 60px;
+    filter: brightness(0.3);
+    z-index: -1;
+}
 .apexlogo > img {
     width: 70px;
     height: 40px;
     position: absolute;
     top: 90px;
-    left: 20px;
+    left: 10px;
     font-size: 24px;
 }
 .apexlogo > p {
     position: absolute;
     top: 100px;
-    left: 100px;
+    left: 90px;
     font-size: 12px;
+    color: white;
 }
 .description992 {
     display: none;
@@ -1324,11 +1405,12 @@ textarea#contents {
     left: 20px;
     display: block;
     font-size: 12px;
+    color: white;
 }
 .inquiry {
     position: absolute;
-    top: 245px;
-    right: 30px;
+    top: 260px;
+    right: 45px;
     font-size: 10px;
 }
 a.inqbutton {
@@ -1388,19 +1470,21 @@ a.inqbutton {
 }
 .improvement {
     position: absolute;
-    top: 270px;
-    right: 25px;
+    top: 288px;
+    right: 40px;
     font-size: 12px;
+    color: white;
 }
 .registration992 {
     display: none;
 }
 .registration520 {
     position: absolute;
-    top: 310px;
+    top: 320px;
     left: 20px;
     display: block;
     font-size: 12px;
+    color: white;
 }
 .page {
     position: absolute;
@@ -1409,6 +1493,7 @@ a.inqbutton {
     transform: translateX(-50%);
     white-space: nowrap;
     font-size: 1.4rem;
+    color: white;
 }
 .furebo-PC {
     position: relative;
@@ -1418,7 +1503,7 @@ a.inqbutton {
     font-size: 1.1rem;
     width: 300px;
     border: 1px dotted #333333;
-    background-color: #6161606e;
+    background-color: #adadad;
     color: white;
 }
 .furebo-PS4PS5 {
@@ -1589,6 +1674,12 @@ textarea#content {
 
 
     /* 投稿ページレイアウト */
+.form992No2 {
+    width: 365px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0000000b;
+}
 .search {
     position: relative;
     top: 80px;
@@ -1607,22 +1698,26 @@ textarea#content {
 .searchbutton:hover {
     background-color: white;
 }
+.searchModel {
+    position: relative;
+}
 select#searchModel {
     position: absolute;
     top: -40px;
-    left: 60px;
+    left: 70px;
     width: 50px;
 }
 select#searchGame {
     position: absolute;
     top: -40px;
-    left: 120px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 110px;
 }
 select#searchRank {
     position: absolute;
     top: -40px;
-    right: 35px;
+    right: 20px;
     width: 100px;
 }
 .lists {
@@ -1703,7 +1798,7 @@ select#searchRank {
 
 .furebo-login-input {
     border-radius: 2px;
-    border: solid 1px #b2b2b2;
+    border: solid 1px #dedcdc;
     background-color: #ffffff;
 }
 .furebo-check-label {

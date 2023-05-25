@@ -1,6 +1,12 @@
 @extends('layouts.app')
  
 @section('content')
+  <div class="apexl">
+    <img src="{{asset('img/apex-legends.JPG')}}">
+  </div>
+  <div class="apexl2">
+    <img src="{{asset('img/apex-legends2.JPG')}}">
+  </div>
 <div class="form992">
 <!-- メッセージ系統 -->
   <!-- ログイン -->
@@ -22,19 +28,20 @@
     </div> 
   @endif
 
+  
   <div class="form">
     <div class="apexlogo">
       <img src="{{asset('img/apexlogo.jpg')}}">
-      <p>Apex Legends エーペックスレジェンズ</p>
+      <p>🅰🅿🅴🆇​ 🅻🅴🅶🅴🅽🅳🆂  エーペックスレジェンズ</p>
     </div>
     <p class="description992">
-      ・こちらのサイトはフレンドや境遇の仲間を集めるサイトとしてご利用してください。<br>
+      ・こちらのサイトはフレンドや境遇の仲間を集めるサイトとしてご利用ください。<br>
       &emsp;※当サイトは出会い系目的や暴言等を書き込むサイトではございません。<br>
       &emsp;ご利用の際は上記の内容をきちんとお守りください。
     </p>
     <p class="description520">
-      ・こちらのサイトはフレンドや境遇の仲間を集めるサイトとして<br>&emsp;ご利用してください。
-      &emsp;&ensp;&thinsp;※当サイトは出会い系目的や暴言等<br>&emsp;を書き込むサイトではございません。<br>
+      ・こちらのサイトはフレンドや境遇の仲間を集めるサイトと<br>&emsp;してご利用ください。<br>
+      &emsp;※当サイトは出会い系目的や暴言等を書き込むサイトでは<br>&emsp;ございません。<br>
       &emsp;ご利用の際は上記の内容をきちんとお守りください。
     </p>
 
@@ -45,12 +52,12 @@
     <p class="improvement">※改善点や希望などは上記まで</p>
       <p class="registration992">
         ・当サイトは簡易的なユーザー登録要素もあります。<br>
-        &emsp;登録を行う事で登録したID（ゲームIDなど）を元に投稿時の打ち込み要素<br>&emsp;を簡素化できます.
+        &emsp;登録を行う事で登録したID（ゲームIDなど）を元に投稿時の打ち込み要素<br>&emsp;を簡素化できます。
         &emsp;&emsp;&emsp;※尚、登録には個人情報などは必要ありません。
       </p>
       <p class="registration520">
         ・当サイトは簡易的なユーザー登録要素もあります。<br>
-        &emsp;登録を行う事で登録したID（ゲームIDなど）を元に投稿時<br>&emsp;の打ち込み要素を簡素化できます.
+        &emsp;登録を行う事で登録したID（ゲームIDなど）を元に投稿時<br>&emsp;の打ち込み要素を簡素化できます。
         <br>&emsp;※尚、登録には個人情報などは必要ありません。
       </p>
     <h1 class="page">⬇️各機種ごとの投稿ページ⬇️</h1>

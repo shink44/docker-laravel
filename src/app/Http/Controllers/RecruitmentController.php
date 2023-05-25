@@ -34,10 +34,10 @@ class RecruitmentController extends Controller
             $query->where('model_name', 'LIKE', "%{$searchModel}%")
                   ->where('game_mode', 'LIKE', "%{$searchGame}%")
                   ->where('rank', 'LIKE', "%{$searchRank}%");
-                $recruitments = $query->paginate(20);
+                $recruitments = $query->paginate(15);
         } else {
 
-        $recruitments = Recruitment::orderBy("id", "desc")->paginate(20);
+        $recruitments = Recruitment::orderBy("id", "desc")->paginate(15);
       }
       return view('recruitments.index',compact('recruitments', 'searchModel', 'searchGame', 'searchRank', 'user'));
 
