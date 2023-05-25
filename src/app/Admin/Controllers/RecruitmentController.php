@@ -2,7 +2,7 @@
 
 namespace App\Admin\Controllers;
 
-use App\Models\recruitment;
+use App\Models\Recruitment;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
@@ -57,7 +57,7 @@ class RecruitmentController extends AdminController
      */
     protected function detail($id)
     {
-        $show = new Show(recruitment::findOrFail($id));
+        $show = new Show(Recruitment::findOrFail($id));
 
         $show->field('id', __('Id'));
         $show->field('user_id', __('User id'));
@@ -82,7 +82,7 @@ class RecruitmentController extends AdminController
      */
     protected function form()
     {
-        $form = new Form(new recruitment());
+        $form = new Form(new Recruitment());
 
         $form->number('user_id', __('User id'))->default(1);
         $form->text('model_name', __('Model name'));
