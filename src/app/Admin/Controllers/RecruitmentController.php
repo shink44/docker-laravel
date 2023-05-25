@@ -24,7 +24,7 @@ class RecruitmentController extends AdminController
      */
     protected function grid()
     {
-        $grid = new Grid(new recruitment());
+        $grid = new Grid(new Recruitment());
 
         $grid->column('id', __('Id'))->sortable();
         $grid->column('user_id', __('User id'));
