@@ -11,7 +11,7 @@
   		</div> 
  	@endif
 
-
+	<script></script>
 		<form class="search" method="GET" action="{{ route('recruitments.index') }}" >
 			@csrf
 			<div class="searchModel">
@@ -105,8 +105,10 @@
 			<div class="row align-items-end">
 				<div class="col-lg px-4">
 					<div class="gp3">
-						<strong>内容 :</strong>
+					<strong>内容 :</strong>
+						<p>
 						{{ $recruitment->content }}
+						</p>
 					</div>
 				</div>
 			</div>
@@ -156,7 +158,9 @@
 		<br>
 		<label class="entrylabel">
 			<strong>内容 :</strong>
+			<p>
 			{{ $recruitment->content }}
+			</p>
 		</label>
 	</div>
 

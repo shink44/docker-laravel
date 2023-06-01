@@ -32,7 +32,12 @@
   <div class="form">
     <div class="apexlogo">
       <img src="{{asset('img/apexlogo.jpg')}}">
-      <p>🅰🅿🅴🆇​ 🅻🅴🅶🅴🅽🅳🆂  エーペックスレジェンズ</p>
+        <h1 class="apextitle">
+          <span>🅰</span><span>🅿</span><span>🅴</span><span>🆇</span><span>&nbsp;</span><span>🅻</span><span>🅴</span><span>🅶</span><span>🅴</span><span>🅽</span><span>🅳</span><span>🆂</span>
+          <span>&nbsp;</span><span>&nbsp;</span>
+          <span>エ</span><span>ー</span><span>ペ</span><span>ッ</span><span>ク</span><span>ス</span><span>レ</span><span>ジ</span><span>ェ</span><span>ン</span><span>ズ</span>
+        </h1>
+        <script src="{{asset('js/app.js')}}"></script>
     </div>
     <p class="description992">
       ・こちらのサイトはフレンドや境遇の仲間を集めるサイトとしてご利用ください。<br>

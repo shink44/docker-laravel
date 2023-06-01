@@ -109,6 +109,92 @@
     max-width: inherit;
     width: 80%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.apextitle {
+  display: flex;
+  padding: 140px 0 0 240px;
+  font-size: 26px;
+  overflow: hidden;
+  color: white;
+}
+.apextitle span {
+  display: block;
+  transform: translate(0, 105%);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.apextitle.-visible span {
+  transform: translate(0, 0);
+}
+.apextitle span:nth-child(2) {
+  transition-delay: 0.06s;
+}
+.apextitle span:nth-child(3) {
+  transition-delay: 0.12s;
+}
+.apextitle span:nth-child(4) {
+  transition-delay: 0.18s;
+}
+.apextitle span:nth-child(5) {
+  transition-delay: 0.24s;
+}
+.apextitle span:nth-child(6) {
+  transition-delay: 0.30s;
+}
+.apextitle span:nth-child(7) {
+  transition-delay: 0.36s;
+}
+.apextitle span:nth-child(8) {
+  transition-delay: 0.42s;
+}
+.apextitle span:nth-child(9) {
+  transition-delay: 0.48s;
+}
+.apextitle span:nth-child(10) {
+  transition-delay: 0.54s;
+}
+.apextitle span:nth-child(11) {
+  transition-delay: 0.6s;
+}
+.apextitle span:nth-child(12) {
+  transition-delay: 0.66s;
+}
+.apextitle span:nth-child(13) {
+  transition-delay: 0.72s;
+}
+.apextitle span:nth-child(15) {
+  transition-delay: 0.78s;
+}
+.apextitle span:nth-child(16) {
+  transition-delay: 0.84s;
+}
+.apextitle span:nth-child(17) {
+  transition-delay: 0.9s;
+}
+.apextitle span:nth-child(18) {
+  transition-delay: 0.96s;
+}
+.apextitle span:nth-child(19) {
+  transition-delay: 1.02s;
+}
+.apextitle span:nth-child(20) {
+  transition-delay: 1.08s;
+}
+.apextitle span:nth-child(21) {
+  transition-delay: 1.12s;
+}
+.apextitle span:nth-child(22) {
+  transition-delay: 1.18s;
+}
+.apextitle span:nth-child(23) {
+  transition-delay: 1.24s;
+}
+.apextitle span:nth-child(24) {
+  transition-delay: 1.3s;
+}
+.apextitle span:nth-child(25) {
+  transition-delay: 1.38s;
+}
 .furebo-PC {
     position: relative;
     left: 50px;
@@ -493,7 +579,6 @@ textarea#content {
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    width: 992px;
     background-color: #f6f6f6;
     z-index: -1;
 }
@@ -691,6 +776,13 @@ select#searchRank {
     text-align: left;
     word-break: break-word;
     width: 900px;
+}
+.gp3 > p {
+    position: relative;
+    left: 40px;
+    top: -23px;
+    width: 860px;   
+    text-align: left;
 }
 .message-rm {
     position: absolute;
@@ -1364,6 +1456,92 @@ textarea#contents {
     max-width: inherit;
     width: 80%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.apextitle {
+  display: flex;
+  padding: 105px 0 0 100px;
+  font-size: 11px;
+  overflow: hidden;
+  color: white;
+}
+.apextitle span {
+  display: block;
+  transform: translate(0, 105%);
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+.apextitle.-visible span {
+  transform: translate(0, 0);
+}
+.apextitle span:nth-child(2) {
+  transition-delay: 0.06s;
+}
+.apextitle span:nth-child(3) {
+  transition-delay: 0.12s;
+}
+.apextitle span:nth-child(4) {
+  transition-delay: 0.18s;
+}
+.apextitle span:nth-child(5) {
+  transition-delay: 0.24s;
+}
+.apextitle span:nth-child(6) {
+  transition-delay: 0.30s;
+}
+.apextitle span:nth-child(7) {
+  transition-delay: 0.36s;
+}
+.apextitle span:nth-child(8) {
+  transition-delay: 0.42s;
+}
+.apextitle span:nth-child(9) {
+  transition-delay: 0.48s;
+}
+.apextitle span:nth-child(10) {
+  transition-delay: 0.54s;
+}
+.apextitle span:nth-child(11) {
+  transition-delay: 0.6s;
+}
+.apextitle span:nth-child(12) {
+  transition-delay: 0.66s;
+}
+.apextitle span:nth-child(13) {
+  transition-delay: 0.72s;
+}
+.apextitle span:nth-child(15) {
+  transition-delay: 0.78s;
+}
+.apextitle span:nth-child(16) {
+  transition-delay: 0.84s;
+}
+.apextitle span:nth-child(17) {
+  transition-delay: 0.9s;
+}
+.apextitle span:nth-child(18) {
+  transition-delay: 0.96s;
+}
+.apextitle span:nth-child(19) {
+  transition-delay: 1.02s;
+}
+.apextitle span:nth-child(20) {
+  transition-delay: 1.08s;
+}
+.apextitle span:nth-child(21) {
+  transition-delay: 1.12s;
+}
+.apextitle span:nth-child(22) {
+  transition-delay: 1.18s;
+}
+.apextitle span:nth-child(23) {
+  transition-delay: 1.24s;
+}
+.apextitle span:nth-child(24) {
+  transition-delay: 1.3s;
+}
+.apextitle span:nth-child(25) {
+  transition-delay: 1.38s;
+}
 .form {
     margin-top: 10px;
     height: 400px;
@@ -1387,6 +1565,7 @@ textarea#contents {
     top: 90px;
     left: 10px;
     font-size: 24px;
+    border-radius: 15px 15px 15px;
 }
 .apexlogo > p {
     position: absolute;
@@ -1673,11 +1852,22 @@ textarea#content {
 
 
     /* 投稿ページレイアウト */
-.form992No2 {
-    width: 365px;
+.form992No3 {
+    width: 360px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #0000000b;
+    background-color: #f6f6f6;
+    z-index: -1;
+}
+  .form992No3 {
+    background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(150deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(30deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(150deg, #dedcdc  12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
+                       linear-gradient(60deg, #e6e6e6 25%, transparent 25.5%, transparent 75%, #e6e6e6 75%, #e6e6e6),
+                       linear-gradient(60deg, #e6e6e6 25%, transparent 25.5%, transparent 75%, #e6e6e6 75%, #e6e6e6);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
 }
 .search {
     position: relative;
@@ -1761,9 +1951,15 @@ select#searchRank {
     padding-top: 3px;
     padding-bottom: 3px;
     left: 30px;
-    text-align: right;
-    /* display: inline-block; */
+    /* text-align: right; */
     word-break: break-all;    
+}
+.entrylabel > p {
+    position: relative;
+    left: 40px;
+    top: -23px;
+    width: 240px;   
+    text-align: left;
 }
 .message-rm {
     position: absolute;
@@ -1786,7 +1982,11 @@ select#searchRank {
         opacity: 0;
         }
     }
-    
+    .paginate {
+        position: relative;
+        left: 20px;
+        bottom: 15px;
+    }
 
 
 
