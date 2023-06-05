@@ -38,7 +38,7 @@
 					<option value="ランクリーグ">ランクリーグ</option>
 				</select>
 			</div>
-			<button type="submit" class="searchbutton"><span>検索する</span></button>
+			<button type="submit" class="searchbutton">検索する</button>
 		</form>
 	
 
@@ -116,52 +116,50 @@
 	</div>
 
 	<div class="entry_sheet520">
-		<label class="entrylabel">
-			<strong>投稿日時 :</strong>
+		<label class="entrylabel">投稿日時 :</label>
+			<p class="entryp1">
 				{{ $recruitment->created_at }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>機種名 :</strong>
+		<label class="entrylabel">機種名 :</label>
+			<p class="entryp2">
 			{{ $recruitment->model_name }}
-		</label>
+			</p>	
 		<br>		
-		<label class="entrylabel">
-			<strong>ゲームモード :</strong>
+		<label class="entrylabel">ゲームモード :</label>
+			<p class="entryp3">
 			{{ $recruitment->game_mode }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>マッチング :</strong>
+		<label class="entrylabel">マッチング :</label>
+			<p class="entryp4">
 			{{ $recruitment->rank }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>ゲーム ID :</strong>
+		<label class="entrylabel">ゲーム ID :</label>
+			<p class="entryp5">
 			{{ $recruitment->game_id }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>Discord ID :</strong>
+		<label class="entrylabel">Discord ID :</label>
+			<p class="entryp6">
 			{{ $recruitment->discord_id }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>募集人数 :</strong>
+		<label class="entrylabel">募集人数 :</label>
+			<p class="entryp7">
 			{{ $recruitment->applicant }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>目的要素 :</strong>
+		<label class="entrylabel">目的要素 :</label>
+			<p class="entryp8">
 			{{ $recruitment->purpose }}
-		</label>
+			</p>
 		<br>
-		<label class="entrylabel">
-			<strong>内容 :</strong>
-			<p>
+		<label class="entrylabel">内容 :</label>
+			<p class="entryp9">
 			{{ $recruitment->content }}
 			</p>
-		</label>
 	</div>
 
 

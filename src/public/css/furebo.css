@@ -451,14 +451,12 @@ select {
 .listlabel {
     padding: 10px 10px 10px 0;
     letter-spacing: 2px;
-    display: inline-block;
     text-align: right;
     width:260px;
 }
 .listlabel2 {
     padding: 10px 10px 20px 0;
     letter-spacing: 2px;
-    display: inline-block;
     text-align: right;
     width: 260px;
 }
@@ -1556,7 +1554,7 @@ textarea#contents {
     position: absolute;
     top: 60px;
     filter: brightness(0.3);
-    z-index: -1;
+    z-index: -10;
 }
 .apexlogo > img {
     width: 70px;
@@ -1747,19 +1745,19 @@ select {
     width: 150px;
 }
 select#game_mode {
-    width:270px;
+    width:280px;
 }
 select#rank {
-    width:270px;
+    width:280px;
 }
 select#purpose {
-    width:270px;
+    width:280px;
 }
 select#applicant {
-    width:270px;
+    width:280px;
 }
 input#text {
-    width:270px;
+    width:280px;
 }
 .content {
     vertical-align: top;
@@ -1771,7 +1769,7 @@ input#text {
 }
 textarea#content {
     resize: none;
-    width:260px;
+    width:280px;
     height:150px;
 }
 .button {
@@ -1810,7 +1808,7 @@ textarea#content {
     color: white;
     position: absolute;
     text-align: center;
-    top: 390px;
+    top: 400px;
     font-size: 15px;
 }
 .list {
@@ -1882,10 +1880,15 @@ textarea#content {
     transform: translateX(-50%);
     width: 100px;
     border: 2px dashed #000;
-    background-color:rgba(5, 255, 201, 0.581)
+    background-color:rgba(5, 255, 201, 0.581);
+    font-weight: bold;
+    color:#000;
 }
 .searchbutton:hover {
     background-color: white;
+}
+.searchbutton > span {
+    
 }
 .searchModel {
     position: relative;
@@ -1893,8 +1896,8 @@ textarea#content {
 select#searchModel {
     position: absolute;
     top: -40px;
-    left: 70px;
-    width: 50px;
+    left: 60px;
+    width: 60px;
 }
 select#searchGame {
     position: absolute;
@@ -1935,8 +1938,6 @@ select#searchRank {
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
-    padding-right: 60px;
-    padding-left: 30px;
     width: 360px;
     margin-left: auto;
     margin-right: auto;
@@ -1948,24 +1949,91 @@ select#searchRank {
 }
 .entrylabel {
     position: relative;
+    left: -30px;
     padding-top: 3px;
     padding-bottom: 3px;
-    left: 30px;
-    /* text-align: right; */
-    word-break: break-all;    
+    text-align: right;
+    width: 120px;
+    font-weight: bold; 
 }
-.entrylabel > p {
+.entrylabel1 {
     position: relative;
-    left: 40px;
-    top: -23px;
-    width: 240px;   
+    left: -50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: right;
+    width: 120px;
+    font-weight: bold;   
+}
+.entryp1 {
+    position: absolute;
+    left: 120px;
+    top: 18px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp2 {
+    position: absolute;
+    left: 120px;
+    top: 47px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp3 {
+    position: absolute;
+    left: 120px;
+    top: 76px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp4 {
+    position: absolute;
+    left: 120px;
+    top: 105px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp5 {
+    position: absolute;
+    left: 120px;
+    top: 134px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp6 {
+    position: absolute;
+    left: 120px;
+    top: 163px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp7 {
+    position: absolute;
+    left: 120px;
+    top: 192px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp8 {
+    position: absolute;
+    left: 120px;
+    top: 221px;
+    word-break: break-all; 
+    width: 180px;
+}
+.entryp9 {
+    position: relative;
+    left: 105px;
+    top: -25px;
+    width: 230px;   
     text-align: left;
+    word-break: break-all; 
 }
 .message-rm {
     position: absolute;
     right: 50%;
     left: 50%;
-    top: 720px;
+    top: 730px;
     transform: translate(-50%,-50%);
     padding: 0.75rem 1.25rem;
     border: 1px solid transparent;
