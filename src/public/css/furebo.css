@@ -1792,7 +1792,7 @@ textarea#content {
     background-color: #000;
 }
 .button:before {
-    top: 776px;
+    top: 800px;
     left: 53px;
 } 
 .button:after {
@@ -1808,7 +1808,7 @@ textarea#content {
     color: white;
     position: absolute;
     text-align: center;
-    top: 400px;
+    top: 410px;
     font-size: 15px;
 }
 .list {
@@ -1886,9 +1886,6 @@ textarea#content {
 }
 .searchbutton:hover {
     background-color: white;
-}
-.searchbutton > span {
-    
 }
 .searchModel {
     position: relative;
@@ -1982,42 +1979,42 @@ select#searchRank {
 .entryp3 {
     position: absolute;
     left: 120px;
-    top: 76px;
+    top: 74px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp4 {
     position: absolute;
     left: 120px;
-    top: 105px;
+    top: 102px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp5 {
     position: absolute;
     left: 120px;
-    top: 134px;
+    top: 131px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp6 {
     position: absolute;
     left: 120px;
-    top: 163px;
+    top: 160px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp7 {
     position: absolute;
     left: 120px;
-    top: 192px;
+    top: 187px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp8 {
     position: absolute;
     left: 120px;
-    top: 221px;
+    top: 214px;
     word-break: break-all; 
     width: 180px;
 }
