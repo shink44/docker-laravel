@@ -577,8 +577,10 @@ textarea#content {
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 10px;
     background-color: #f6f6f6;
     z-index: -1;
+    position: relative;
 }
   .form992No3 {
     background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
@@ -594,6 +596,7 @@ textarea#content {
     position: relative;
     top: -70px;
     left: 80px;
+    margin-right: 300px;
 }
 .searchModel {
     position: relative;
@@ -645,7 +648,7 @@ textarea#content {
 .searchbutton  {
     position: relative;
     top: 10px;
-    right: 415px;
+    left: -270px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -804,9 +807,12 @@ select#searchRank {
         }
     }
 .paginate {
-    position: relative;
-    left: 80px;
-    bottom: 40px;
+    position: absolute;
+    padding-right: 300px;
+    margin: 0 auto;
+    left: 100px;
+    bottom: 30px;
+    transform: scale(1.2);
 }
 
 
@@ -1851,11 +1857,13 @@ textarea#content {
 
     /* 投稿ページレイアウト */
 .form992No3 {
-    width: 360px;
+    width: 380px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 60px;
     background-color: #f6f6f6;
     z-index: -1;
+    position: relative;
 }
   .form992No3 {
     background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
@@ -1993,21 +2001,21 @@ select#searchRank {
 .entryp5 {
     position: absolute;
     left: 120px;
-    top: 131px;
+    top: 130px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp6 {
     position: absolute;
     left: 120px;
-    top: 160px;
+    top: 158px;
     word-break: break-all; 
     width: 180px;
 }
 .entryp7 {
     position: absolute;
     left: 120px;
-    top: 187px;
+    top: 186px;
     word-break: break-all; 
     width: 180px;
 }
@@ -2048,9 +2056,9 @@ select#searchRank {
         }
     }
     .paginate {
-        position: relative;
+        position: absolute;
         left: 20px;
-        bottom: 15px;
+        bottom: 10px;
     }
 
 

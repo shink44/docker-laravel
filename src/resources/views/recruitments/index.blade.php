@@ -2,8 +2,7 @@
 
 
 @include("recruitments.recruitment_form")
-<!-- <div class="form992No2"> -->
-<div class="form992No3 form992No4">
+<div class="form992No3">
 	<h2 class="lists">募集一覧</h2>
 	@if (session('message-rm'))
   		<div class="message-rm">
@@ -11,7 +10,6 @@
   		</div> 
  	@endif
 
-	<script></script>
 		<form class="search" method="GET" action="{{ route('recruitments.index') }}" >
 			@csrf
 			<div class="searchModel">
@@ -165,9 +163,9 @@
 
 @endforeach
 
-	<div class="paginate">
-	{{ $recruitments->appends(request()->query())->links() }}
-	<!-- {{ $recruitments->links() }} -->
+	<div class="paginate">	
+		{{ $recruitments->appends(request()->query())->links() }}
+		<!-- {{ $recruitments->links() }} -->
 	</div>
 </div>
 
