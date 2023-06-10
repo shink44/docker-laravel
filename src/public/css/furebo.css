@@ -580,7 +580,6 @@ textarea#content {
     padding-bottom: 10px;
     background-color: #f6f6f6;
     z-index: -1;
-    position: relative;
 }
   .form992No3 {
     background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
@@ -807,10 +806,10 @@ select#searchRank {
         }
     }
 .paginate {
-    position: absolute;
-    padding-right: 300px;
+    position: relative;
+    /* padding-right: 100px; */
     margin: 0 auto;
-    left: 100px;
+    left: 160px;
     bottom: 30px;
     transform: scale(1.2);
 }
@@ -1863,7 +1862,6 @@ textarea#content {
     padding-bottom: 60px;
     background-color: #f6f6f6;
     z-index: -1;
-    position: relative;
 }
   .form992No3 {
     background-image:  linear-gradient(30deg, #dedcdc 12%, transparent 12.5%, transparent 87%, #dedcdc  87.5%, #dedcdc ),
@@ -2056,9 +2054,10 @@ select#searchRank {
         }
     }
     .paginate {
-        position: absolute;
-        left: 20px;
-        bottom: 10px;
+        position: relative;
+        left: 40px;
+        bottom: -30px;
+        transform: scale(1.1);
     }
 
 
