@@ -162,12 +162,14 @@
 
 
 @endforeach
-
-	<div class="paginate">	
-		{{ $recruitments->appends(request()->query())->links() }}
-		<!-- {{ $recruitments->links() }} -->
+	<div class="paginatePC">	
+		{{ $recruitments->appends(request()->query())->links('vendor.pagination.custom') }}
 	</div>
+	<!-- <div class="paginate">	
+		{{ $recruitments->appends(request()->query())->links() }}
+	</div> -->
 </div>
+		
 
 
 

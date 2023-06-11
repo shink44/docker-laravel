@@ -577,7 +577,6 @@ textarea#content {
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 10px;
     background-color: #f6f6f6;
     z-index: -1;
 }
@@ -805,13 +804,72 @@ select#searchRank {
         opacity: 0;
         }
     }
-.paginate {
+.p-pagination{
     position: relative;
-    /* padding-right: 100px; */
-    margin: 0 auto;
-    left: 160px;
-    bottom: 30px;
-    transform: scale(1.2);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 480px;
+    height: 70px;
+    padding: 15px 35px;
+    background: #2be1bf;
+    border-radius: 50px;
+    border: solid 3px currentColor;
+    border-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.125);
+}
+.p-pagination ul{
+    display: flex;
+    text-align: center;
+    margin:0px 10px;
+}
+.paginationPC{
+    padding-right: 2px;
+}
+.paginationMo {
+    display: none;
+}
+.paginationPC2{
+    padding-left: 2px;
+}
+.paginationMo2 {
+    display: none;
+}
+.paginate3 {
+    font-size: 29px;
+    color: white;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+.p-pagination ul li{
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 8px;
+    background: #2be1bf;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    border: solid 2px currentColor;
+    border-color: white;
+    margin-right: 13px;
+}
+.p-pagination ul li:first-child{
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.p-pagination ul li:last-child{
+    border-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.p-pagination ul li:hover,
+.p-pagination ul li.active{
+    background: #2be1bf;
+    color: #fff;
+    border: solid 2px currentColor;
+    border-color: white;
 }
 
 
@@ -1362,22 +1420,6 @@ textarea#contents {
     background-color: rgb(5, 255, 251);
     border: 1.5px solid white;
 }
-.top:after {
-    content: '';
-    width: 5px;
-    height: 5px;
-    border-top: 3px solid #313131;
-    border-right: 3px solid #313131;
-    transform: rotate(45deg) translateY(-50%);
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    border-radius: 1px;
-    transition: 0.2s ease-in-out;
-}
-.top:hover:after {
-    border-color: #FFF;
-}
 .furebofooter {
     text-align: center;
     position: absolute;
@@ -1859,7 +1901,7 @@ textarea#content {
     width: 380px;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     background-color: #f6f6f6;
     z-index: -1;
 }
@@ -2053,12 +2095,75 @@ select#searchRank {
         opacity: 0;
         }
     }
-    .paginate {
-        position: relative;
-        left: 40px;
-        bottom: -30px;
-        transform: scale(1.1);
-    }
+.p-pagination {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background: #2be1bf;
+    border-radius: 20px;
+    border: solid 3px currentColor;
+    border-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.125);
+}
+.p-pagination ul {
+    display: flex;
+    text-align: center;
+    padding-right: 10px;
+}
+.paginationPC {
+    display: none;
+    font-size: 40px;
+}
+.paginationMo {
+    padding-left: -1px;
+}
+.paginationPC2 {
+    display: none;
+}
+.paginationMo2 {
+    padding-right: -1px;
+}
+.paginate3 {
+    font-size: 29px;
+    color: white;
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
+.p-pagination ul li{
+    width: 35px;
+    height: 30px;
+    line-height: 25px;
+    background: #2be1bf;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    border: solid 2px currentColor;
+    border-color: white;
+    margin-right: 20px;
+}
+.p-pagination ul li:first-child{
+    border-radius: 0;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.p-pagination ul li:last-child{
+    border-radius: 0;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.p-pagination ul li:hover,
+.p-pagination ul li.active{
+    background: #2be1bf;
+    color: #fff;
+    border: solid 2px currentColor;
+    border-color: white;
+}
+
 
 
 
