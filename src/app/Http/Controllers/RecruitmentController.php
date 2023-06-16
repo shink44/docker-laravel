@@ -37,7 +37,7 @@ class RecruitmentController extends Controller
                 $recruitments = $query->paginate(15);
         } else {
 
-        $recruitments = Recruitment::orderBy("id", "desc")->paginate(5);
+        $recruitments = Recruitment::orderBy("id", "desc")->paginate(15);
       }
       return view('recruitments.index',compact('recruitments', 'searchModel', 'searchGame', 'searchRank', 'user'));
 
